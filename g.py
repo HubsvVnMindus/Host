@@ -50,8 +50,7 @@ def banner(game):
     prints(7, 205, 240, f" 👤 Admin: Thành Công | 📺 YouTube: @Tool-Xworld ".center(52))
     draw_line()
 
-def load_data_vth():
-def load_data_vth():
+    load_data_vth():
     filename = 'data-xw-vth.txt'
     if os.path.exists(filename):
         prints(0, 255, 243, ' 📂 Phát hiện dữ liệu cũ. Sử dụng lại? (y/n): ', end='')
@@ -248,4 +247,5 @@ if __name__ == "__main__":
         main_vth()
     except KeyboardInterrupt:
         print("\n [!] Đã dừng Tool.")
+
 
